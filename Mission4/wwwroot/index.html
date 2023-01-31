@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--favicon image in title-->
+    <link rel="icon" href="img/cheese.png" type="image/icon type">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Amazing Title</title>
+</head>
+<body class="text-center">
+    <!--title of my name-->
+    <h1>Cameron Pike</h1>
+
+    <!--image of me taking photos-->
+    <img src="img/IMG_2309.JPG" />
+
+    <!--what I hope to get out of this class-->
+    <h3>What I hope to get out of this IS 413 class</h3>
+    <p>
+        I hope to create web apps using the .NET MVC Framework. I hope to work as a team to build and integrate a web app.
+        I hope to write React pages using the fundamentals of C#. Use libraries such as Bootstrap, JQuery, Angular etc.
+        in the web apps.
+    </p>
+
+    <!--list of my top 3 jobs-->
+    <h3>Top 3 jobs are am most interest in pursuing when I graduate</h3>
+    <ul>
+        <li>Full-Stack Developer</li>
+        <li>Application Developer</li>
+        <li>System Structure Engineer</li>
+    </ul>
+
+
+    <!--grade calculator-->
+    <h2>Grade Calculator</h2>
+    <form>
+        <label>Assignments: </label>
+        <input type="number" id="assignments" value="0" min="0" max="100" /><br />
+        <label>Group Projects: </label>
+        <input type="number" id="group_projects" value="0" min="0" max="100" /><br />
+        <label>Quizzes: </label>
+        <input type="number" id="quizzes" value="0" min="0" max="100" /><br />
+        <label>Midterm Exam: </label>
+        <input type="number" id="midterm_exam" value="0" min="0" max="100" /><br />
+        <label>Final Exam: </label>
+        <input type="number" id="final_exam" value="0" min="0" max="100" /><br />
+        <label>INTEX: </label>
+        <input type="number" id="intex" value="0" min="0" max="100" /><br />
+
+        <input id="calculate" type="button" value="Calculate Grade" />
+    </form>
+    <p id="total" class="total"></p>
+    <h1 id="result" class="result"></h1>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+</html>

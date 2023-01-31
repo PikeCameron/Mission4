@@ -1,0 +1,27 @@
+﻿body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 15rem;
+}
+
+label {
+    font-size: 20px;
+    color: seagreen;
+    width: 150px;
+    display: inline-block;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+img {
+    width: 12rem;
+}
+
+.total {
+    font-size: 24px;
+}
+
+.result {
+    color: red;
+}
